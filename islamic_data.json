@@ -1,0 +1,836 @@
+[
+  {
+    "ingredient": "Dawn Bread",
+    "status": "halal",
+    "reference": "Certified halal in Pakistan; common local brand",
+    "explanation": "Produced in Pakistan under halal standards. No animal fats or questionable enzymes are used.",
+    "category": "Bread"
+  },
+  {
+    "ingredient": "Bake Parlour Bread",
+    "status": "halal",
+    "reference": "Certified halal and widely consumed",
+    "explanation": "Made using halal ingredients and plant-based emulsifiers. No alcohol or animal enzymes used.",
+    "category": "Bread"
+  },
+  {
+    "ingredient": "Wonder Bread (USA)",
+    "status": "doubtful",
+    "reference": "May contain emulsifiers or enzymes from non-halal sources",
+    "explanation": "Contains mono- and diglycerides which may be animal-derived unless specified otherwise.",
+    "category": "Bread"
+  },
+  {
+    "ingredient": "Sunbulah Bread Rolls",
+    "status": "halal",
+    "reference": "Halal certified in Saudi Arabia",
+    "explanation": "Meets GCC halal certification standards. Ingredients are plant-based.",
+    "category": "Bread"
+  },
+  {
+    "ingredient": "Lays Classic Chips (USA)",
+    "status": "halal",
+    "reference": "Potato, salt, oil — no animal products",
+    "explanation": "Simple recipe with no added flavors or animal ingredients. Considered halal.",
+    "category": "Chips"
+  },
+  {
+    "ingredient": "Lays Magic Masala (India)",
+    "status": "halal",
+    "reference": "Halal certified in India",
+    "explanation": "Flavored with Indian spices and certified vegetarian and halal.",
+    "category": "Chips"
+  },
+  {
+    "ingredient": "Lays Barbecue (USA)",
+    "status": "doubtful",
+    "reference": "May contain natural flavoring with alcohol or animal enzymes",
+    "explanation": "The smoky flavoring may be derived using alcohol-based extracts or meat broth.",
+    "category": "Chips"
+  },
+  {
+    "ingredient": "Kurkure Masala Munch (India)",
+    "status": "halal",
+    "reference": "Certified halal in India",
+    "explanation": "Made in vegetarian facilities and carries halal certification.",
+    "category": "Chips"
+  },
+  {
+    "ingredient": "Cheetos Flamin' Hot (USA)",
+    "status": "haram",
+    "reference": "Contains animal rennet from pork or non-zabiha source",
+    "explanation": "Cheese flavor includes enzymes from haram sources, often pork-based rennet.",
+    "category": "Chips"
+  },
+  {
+    "ingredient": "Cheetos Crunchy (Pakistan)",
+    "status": "halal",
+    "reference": "Certified halal in Pakistan",
+    "explanation": "Manufactured with halal-certified ingredients using vegetarian enzymes.",
+    "category": "Chips"
+  },
+  {
+    "ingredient": "Tuc Crackers (LU)",
+    "status": "halal",
+    "reference": "No animal ingredients used",
+    "explanation": "Vegetable shortening and emulsifiers make this safe for halal consumption.",
+    "category": "Biscuits"
+  },
+  {
+    "ingredient": "Oreo Original (USA)",
+    "status": "doubtful",
+    "reference": "Alcohol-based vanilla extract used in some countries",
+    "explanation": "Though no animal products, the vanilla flavoring may contain alcohol.",
+    "category": "Biscuits"
+  },
+  {
+    "ingredient": "Oreo Original (Pakistan)",
+    "status": "halal",
+    "reference": "Halal certified by LU",
+    "explanation": "LU manufactures with halal-compliant ingredients and processes.",
+    "category": "Biscuits"
+  },
+  {
+    "ingredient": "LU Gala Biscuits",
+    "status": "halal",
+    "reference": "Popular in Pakistan; halal certified",
+    "explanation": "Baked using halal-certified oil and emulsifiers; widely accepted by scholars.",
+    "category": "Biscuits"
+  },
+  {
+    "ingredient": "Peek Freans Sooper",
+    "status": "halal",
+    "reference": "Certified by manufacturer",
+    "explanation": "Baked using butter, flour, and sugar — all sourced from halal suppliers.",
+    "category": "Biscuits"
+  },
+  {
+    "ingredient": "Digestive Biscuits (McVitie's UK)",
+    "status": "halal",
+    "reference": "Halal-certified version available",
+    "explanation": "UK-made versions are often halal certified. No lard or animal-derived ingredients.",
+    "category": "Biscuits"
+  },
+  {
+    "ingredient": "Digestive Biscuits (USA)",
+    "status": "doubtful",
+    "reference": "May contain enzymes or dairy derivatives",
+    "explanation": "Some contain mono-/diglycerides or dairy-based emulsifiers from non-halal animals.",
+    "category": "Biscuits"
+  },
+  {
+    "ingredient": "Rafhan Jelly Strawberry",
+    "status": "halal",
+    "reference": "Uses plant-based gelling agents",
+    "explanation": "Gelling agent is carrageenan, not gelatin, making it halal suitable.",
+    "category": "Desserts"
+  },
+  {
+    "ingredient": "Royal Jelly (USA)",
+    "status": "doubtful",
+    "reference": "May contain pork-based gelatin",
+    "explanation": "Often includes gelatin as stabilizer; manufacturer rarely discloses source.",
+    "category": "Desserts"
+  },
+  {
+    "ingredient": "Mitchell's Jelly",
+    "status": "halal",
+    "reference": "Common Pakistani product, plant-based gelatin",
+    "explanation": "Locally produced with no animal derivatives, suitable for halal diets.",
+    "category": "Desserts"
+  },
+  {
+    "ingredient": "Nestle Fruita Vitals (Strawberry)",
+    "status": "halal",
+    "reference": "No animal derivatives used",
+    "explanation": "Made from fruit concentrate without alcohol or animal additives.",
+    "category": "Beverages"
+  },
+  {
+    "ingredient": "Cadbury Dairy Milk",
+    "status": "doubtful",
+    "reference": "May contain vanilla extract with alcohol (depending on region)",
+    "explanation": "Certain batches contain alcohol-based flavoring; check region-specific info.",
+    "category": "Chocolate"
+  },
+  {
+    "ingredient": "Snickers (UK)",
+    "status": "halal",
+    "reference": "Certified in UK and GCC countries",
+    "explanation": "Produced in certified halal plants in the UK, no alcohol or pork enzymes used.",
+    "category": "Chocolate"
+  },
+  {
+    "ingredient": "Twix (USA)",
+    "status": "haram",
+    "reference": "Contains gelatin and alcohol flavoring",
+    "explanation": "Uses non-halal gelatin and alcohol-based vanilla in caramel layer.",
+    "category": "Chocolate"
+  },
+  {
+    "ingredient": "Pizza Hut Chicken Fajita (Pakistan)",
+    "status": "halal",
+    "reference": "Certified halal by local authorities",
+    "explanation": "Made with halal chicken and separate utensils in certified branches.",
+    "category": "Fast Food"
+  },
+  {
+    "ingredient": "KFC Zinger Burger (Pakistan)",
+    "status": "halal",
+    "reference": "Halal certified branches",
+    "explanation": "Uses halal-certified chicken and oil, with certification available at outlets.",
+    "category": "Fast Food"
+  },
+  {
+    "ingredient": "KFC Zinger Burger (USA)",
+    "status": "haram",
+    "reference": "No halal certification",
+    "explanation": "Meat is not zabiha halal, and cross-contamination is likely.",
+    "category": "Fast Food"
+  },
+  {
+    "ingredient": "Pepsi (Global)",
+    "status": "halal",
+    "reference": "No alcohol or animal-derived ingredients",
+    "explanation": "Globally formulated without alcohol or doubtful emulsifiers.",
+    "category": "Beverages"
+  },
+  {
+    "ingredient": "Pepsi Mango Flavor",
+    "status": "doubtful",
+    "reference": "Flavored variants may use alcohol in flavor extraction",
+    "explanation": "Flavors can be derived using alcohol; contact manufacturer for confirmation.",
+    "category": "Beverages"
+  },
+  {
+    "ingredient": "Red Bull",
+    "status": "doubtful",
+    "reference": "Taurine origin unclear; scholarly difference",
+    "explanation": "Some Red Bull variants may use synthetic taurine; others use animal-based.",
+    "category": "Beverages"
+  },
+  {
+    "ingredient": "7UP",
+    "status": "halal",
+    "reference": "No haram ingredients",
+    "explanation": "Carbonated drink with basic ingredients — no alcohol or enzymes used.",
+    "category": "Beverages"
+  },
+  {
+    "ingredient": "Fanta Orange (Global)",
+    "status": "halal",
+    "reference": "No animal-derived ingredients",
+    "explanation": "Globally accepted as halal — fruit flavoring does not involve alcohol.",
+    "category": "Beverages"
+  },
+  {
+    "ingredient": "Sprite",
+    "status": "halal",
+    "reference": "Alcohol-free; globally accepted",
+    "explanation": "Standard lemon-lime formula with halal-compliant processing.",
+    "category": "Beverages"
+  },
+  {
+    "ingredient": "Nestle Milkpak",
+    "status": "halal",
+    "reference": "Certified in Pakistan",
+    "explanation": "Packaged under hygienic and halal-certified dairy practices.",
+    "category": "Dairy"
+  },
+  {
+    "ingredient": "Olpers Milk",
+    "status": "halal",
+    "reference": "Common Pakistani dairy brand",
+    "explanation": "Sourced from halal-certified farms and processing units.",
+    "category": "Dairy"
+  },
+  {
+    "ingredient": "Yoplait Yogurt (USA)",
+    "status": "doubtful",
+    "reference": "Contains gelatin or enzymes not always halal",
+    "explanation": "U.S. variants may contain gelatin from pork or beef.",
+    "category": "Dairy"
+  },
+  {
+    "ingredient": "Activia Yogurt (UK)",
+    "status": "halal",
+    "reference": "Halal certified in UK",
+    "explanation": "Made with halal enzymes and no gelatin; certified in many UK branches.",
+    "category": "Dairy"
+  },
+  {
+    "ingredient": "Jelly Belly Beans",
+    "status": "doubtful",
+    "reference": "May use alcohol in flavoring process",
+    "explanation": "Natural flavors may be extracted using ethanol; verify batch if unsure.",
+    "category": "Candy"
+  },
+  {
+    "ingredient": "Nando’s Chicken (UK)",
+    "status": "halal",
+    "reference": "Only in halal-certified branches",
+    "explanation": "Some branches use halal chicken with separate preparation areas.",
+    "category": "Fast Food"
+  },
+  {
+    "ingredient": "Beef Pepperoni Pizza (Domino’s USA)",
+    "status": "haram",
+    "reference": "Contains pork derivatives",
+    "explanation": "Pepperoni contains pork or non-zabiha beef — not permissible.",
+    "category": "Fast Food"
+  },
+  {
+    "ingredient": "Chicken Tikka Wrap (Subway Pakistan)",
+    "status": "halal",
+    "reference": "Halal-certified meat used",
+    "explanation": "Subway Pakistan sources meat from halal-certified suppliers.",
+    "category": "Fast Food"
+  },
+  {
+    "ingredient": "Vanilla Extract (Regular)",
+    "status": "haram",
+    "reference": "Alcohol-based",
+    "explanation": "Standard vanilla extract contains 35% alcohol, making it haram by consensus.",
+    "category": "Ingredients"
+  },
+  {
+    "ingredient": "Vanilla Essence (Synthetic)",
+    "status": "halal",
+    "reference": "Alcohol-free version",
+    "explanation": "Synthetic vanilla made without alcohol is considered halal.",
+    "category": "Ingredients"
+  },
+  {
+    "ingredient": "Nestle Fruita Vitals (Strawberry)",
+    "status": "halal",
+    "reference": "No animal derivatives used",
+    "explanation": "This juice is made purely from fruit concentrate without any alcohol or gelatin-based additives.",
+    "category": "Beverages"
+  },
+  {
+    "ingredient": "Cadbury Dairy Milk",
+    "status": "doubtful",
+    "reference": "May contain vanilla extract with alcohol (depending on region)",
+    "explanation": "The chocolate may use vanilla flavoring that includes alcohol depending on the manufacturing country.",
+    "category": "Chocolate"
+  },
+  {
+    "ingredient": "Snickers (UK)",
+    "status": "halal",
+    "reference": "Certified in UK and GCC countries",
+    "explanation": "Manufactured with halal ingredients and certification in many Muslim-majority countries.",
+    "category": "Chocolate"
+  },
+  {
+    "ingredient": "Twix (USA)",
+    "status": "haram",
+    "reference": "Contains gelatin and alcohol flavoring",
+    "explanation": "Twix produced in the U.S. may include non-halal gelatin and alcohol-based vanilla.",
+    "category": "Chocolate"
+  },
+  {
+    "ingredient": "Pizza Hut Chicken Fajita (Pakistan)",
+    "status": "halal",
+    "reference": "Certified halal by local authorities",
+    "explanation": "Made with halal-certified chicken and ingredients under local Islamic supervision.",
+    "category": "Fast Food"
+  },
+  {
+    "ingredient": "KFC Zinger Burger (Pakistan)",
+    "status": "halal",
+    "reference": "Halal certified branches",
+    "explanation": "Certified zabiha chicken is used in all officially halal branches across Pakistan.",
+    "category": "Fast Food"
+  },
+  {
+    "ingredient": "KFC Zinger Burger (USA)",
+    "status": "haram",
+    "reference": "No halal certification",
+    "explanation": "U.S. branches use chicken that is not slaughtered according to halal standards.",
+    "category": "Fast Food"
+  },
+  {
+    "ingredient": "Pepsi (Global)",
+    "status": "halal",
+    "reference": "No alcohol or animal-derived ingredients",
+    "explanation": "Composed of carbonated water, sugar, and flavorings with no alcohol or gelatin.",
+    "category": "Beverages"
+  },
+  {
+    "ingredient": "Pepsi Mango Flavor",
+    "status": "doubtful",
+    "reference": "Flavored variants may use alcohol in flavor extraction",
+    "explanation": "Fruit flavoring processes often use alcohol extraction which raises concerns.",
+    "category": "Beverages"
+  },
+  {
+    "ingredient": "Red Bull",
+    "status": "doubtful",
+    "reference": "Taurine origin unclear; scholarly difference",
+    "explanation": "Taurine may be synthetic or animal-derived, and some scholars differ in ruling.",
+    "category": "Beverages"
+  },
+  {
+    "ingredient": "7UP",
+    "status": "halal",
+    "reference": "No haram ingredients",
+    "explanation": "Made from sugar, lemon essence, and carbonated water with no forbidden additives.",
+    "category": "Beverages"
+  },
+  {
+    "ingredient": "Fanta Orange (Global)",
+    "status": "halal",
+    "reference": "No animal-derived ingredients",
+    "explanation": "This soda uses fruit flavoring and coloring that are vegetarian-friendly.",
+    "category": "Beverages"
+  },
+  {
+    "ingredient": "Sprite",
+    "status": "halal",
+    "reference": "Alcohol-free; globally accepted",
+    "explanation": "Known to be free from ethanol or any other intoxicating ingredients.",
+    "category": "Beverages"
+  },
+  {
+    "ingredient": "Nestle Milkpak",
+    "status": "halal",
+    "reference": "Certified in Pakistan",
+    "explanation": "Dairy milk produced under halal-certified dairy processes.",
+    "category": "Dairy"
+  },
+  {
+    "ingredient": "Olpers Milk",
+    "status": "halal",
+    "reference": "Common Pakistani dairy brand",
+    "explanation": "No animal rennet or cross-contaminants in packaging or processing.",
+    "category": "Dairy"
+  },
+  {
+    "ingredient": "Yoplait Yogurt (USA)",
+    "status": "doubtful",
+    "reference": "Contains gelatin or enzymes not always halal",
+    "explanation": "May include gelatin or bacterial cultures from non-halal sources.",
+    "category": "Dairy"
+  },
+  {
+    "ingredient": "Activia Yogurt (UK)",
+    "status": "halal",
+    "reference": "Halal certified in UK",
+    "explanation": "Contains only vegetarian cultures and is certified in Muslim markets.",
+    "category": "Dairy"
+  },
+  {
+    "ingredient": "Jelly Belly Beans",
+    "status": "doubtful",
+    "reference": "May use alcohol in flavoring process",
+    "explanation": "Artificial flavors may be extracted using alcohol, which some scholars prohibit.",
+    "category": "Candy"
+  },
+  {
+    "ingredient": "Nando’s Chicken (UK)",
+    "status": "halal",
+    "reference": "Only in halal-certified branches",
+    "explanation": "Zabiha chicken is served only in clearly marked halal branches.",
+    "category": "Fast Food"
+  },
+  {
+    "ingredient": "Beef Pepperoni Pizza (Domino’s USA)",
+    "status": "haram",
+    "reference": "Contains pork derivatives",
+    "explanation": "Pepperoni contains pork by default unless specified as beef and halal certified.",
+    "category": "Fast Food"
+  },
+  {
+    "ingredient": "Chicken Tikka Wrap (Subway Pakistan)",
+     "status": "halal",
+     "reference": "Halal-certified meat used",
+     "explanation": "Subway Pakistan sources halal meat as per local Islamic authority.",
+     "category": "Fast Food"
+  },
+  {
+     "ingredient": "Vanilla Extract (Regular)",
+     "status": "haram",
+     "reference": "Alcohol-based",
+     "explanation": "Vanilla extract often uses ethanol as a solvent, which is haram.",
+     "category": "Ingredients"
+  },
+  {
+     "ingredient": "Vanilla Essence (Synthetic)",
+     "status": "halal",
+     "reference": "Alcohol-free version",
+     "explanation": "Synthetic vanilla essence is lab-made and alcohol-free, making it halal.",
+     "category": "Ingredients"
+  },
+  {
+     "ingredient": "Chicken Nuggets (McDonald's USA)",
+     "status": "haram",
+     "reference": "Not halal-certified",
+     "explanation": "Made from non-zabiha chicken and processed on shared equipment.",
+     "category": "Fast Food"
+  },
+  {
+     "ingredient": "Fish Filet (McDonald's Pakistan)",
+     "status": "halal",
+     "reference": "Halal-certified branch",
+     "explanation": "Sourced from halal fish and fried in separate oil in Pakistani outlets.",
+     "category": "Fast Food"
+  },
+  {
+     "ingredient": "Chicken Doner Wrap (Random Kebab Shop)",
+     "status": "doubtful",
+     "reference": "Check local halal certification",
+     "explanation": "Unless verified, doner meat may come from non-zabiha sources.",
+     "category": "Fast Food"
+  },
+  {
+     "ingredient": "KFC Fries (Pakistan)",
+     "status": "halal",
+     "reference": "Cooked in vegetable oil",
+     "explanation": "Fried in separate oil without cross-contamination with haram meat.",
+     "category": "Fast Food"
+  },
+  {
+     "ingredient": "Hardee's Angus Thickburger (Pakistan)",
+     "status": "halal",
+     "reference": "Uses halal beef certified by local suppliers",
+     "explanation": "The beef is sourced from slaughterhouses approved by Islamic bodies.",
+     "category": "Fast Food"
+  },
+  {
+     "ingredient": "Hardee's Beef Burger (USA)",
+     "status": "haram",
+     "reference": "Beef is not zabiha halal certified",
+     "explanation": "Uses conventional beef not slaughtered per Islamic law.",
+     "category": "Fast Food"
+  },
+  {
+     "ingredient": "Junaid Jamshed Biryani",
+     "status": "halal",
+     "reference": "Certified halal Pakistani restaurant chain",
+     "explanation": "Made using halal-certified meat and ingredients from a trusted chain.",
+     "category": "Restaurant Dishes"
+  },
+  {
+     "ingredient": "Pizza Max Chicken Supreme",
+     "status": "halal",
+     "reference": "Uses halal chicken in certified branches",
+     "explanation": "This local brand uses halal meat and is prepared under Islamic guidelines.",
+     "category": "Fast Food"
+  },
+  {
+     "ingredient": "Subway Turkey Sandwich (USA)",
+     "status": "doubtful",
+     "reference": "Not halal certified in most locations",
+     "explanation": "Turkey meat is not halal-certified unless stated explicitly in-store.",
+     "category": "Fast Food"
+  },
+  {
+     "ingredient": "Shan Masala (Biryani Mix)",
+     "status": "halal",
+     "reference": "Certified halal by manufacturer",
+     "explanation": "The spice mix does not contain meat products and is made in halal-certified facilities.",
+     "category": "Ingredients"
+  },
+  {
+     "ingredient": "National Ketchup",
+     "status": "halal",
+     "reference": "Vegetarian product; no haram ingredients",
+     "explanation": "Contains tomatoes, vinegar, and spices with no alcohol or animal sources.",
+     "category": "Condiments"
+  },
+  {
+     "ingredient": "Shezan Mango Juice",
+     "status": "halal",
+     "reference": "Fruit-based, no animal derivatives",
+     "explanation": "Made with mango pulp and sugar, free from any doubtful preservatives.",
+     "category": "Beverages"
+  },
+  {
+     "ingredient": "Hostess Twinkies (USA)",
+     "status": "haram",
+     "reference": "Contains beef/pork gelatin in some regions",
+     "explanation": "May include non-halal animal shortening or gelatin in cream filling.",
+     "category": "Snacks"
+  },
+  {
+     "ingredient": "Foster Clark’s Custard",
+     "status": "halal",
+     "reference": "Vegetarian thickener used",
+     "explanation": "Uses cornstarch and flavoring without any animal derivatives.",
+     "category": "Desserts"
+  },
+  {
+     "ingredient": "Dairy Queen Ice Cream (USA)",
+     "status": "doubtful",
+     "reference": "Flavors may include alcohol or animal enzymes",
+     "explanation": "Some variants use flavoring with ethanol and animal-derived stabilizers.",
+     "category": "Desserts"
+  },
+  {
+     "ingredient": "Walls Cornetto (Pakistan)",
+     "status": "halal",
+     "reference": "Certified halal ice cream by Unilever Pakistan",
+     "explanation": "Uses halal milk and no pork-based gelatin in local production.",
+     "category": "Desserts"
+  },
+  {
+     "ingredient": "Coca-Cola (Global)",
+     "status": "halal",
+     "reference": "No alcohol or animal-derived ingredients",
+     "explanation": "A globally halal-friendly drink made with sugar and carbonated water.",
+     "category": "Beverages"  
+  },
+  {
+     "ingredient": "Mentos Chewing Gum (Europe)",
+     "status": "doubtful",
+     "reference": "Gelatin source not always specified",
+     "explanation": "The gelatin or glycerin used is not always sourced from halal animals.",
+     "category": "Candy"
+  },
+  {
+     "ingredient": "Tic Tac (USA)",
+     "status": "halal",
+     "reference": "No gelatin or alcohol used",
+     "explanation": "Made with sugar, flavoring, and no animal or alcohol content.",
+     "category": "Candy"
+  },
+  {
+     "ingredient": "Sprite Lemon Mint (Gulf)",
+     "status": "halal",
+     "reference": "Halal certified in GCC regions",
+     "explanation": "Variant uses halal-certified lemon and mint flavorings.",
+     "category": "Beverages"
+  },
+  {
+     "ingredient": "Jelly Donut (Tim Hortons Canada)",
+     "status": "doubtful",
+     "reference": "May contain alcohol-based flavoring",
+     "explanation": "Some fillings are made with flavoring that may contain alcohol.",
+     "category": "Desserts"
+  },
+  {
+     "ingredient": "Swiss Roll (Local Bakery)",
+     "status": "doubtful",
+     "reference": "Unknown gelatin and emulsifier source",
+     "explanation": "Check if the bakery uses halal-certified stabilizers in cream filling.",
+     "category": "Desserts"
+  },
+  {
+     "ingredient": "Hardee's Angus Thickburger (Pakistan)",
+     "status": "halal",
+     "reference": "Uses halal beef certified by local suppliers",
+     "explanation": "Meat used in Pakistan outlets is from halal-certified local slaughterhouses.",
+     "category": "Fast Food"
+  },
+  {
+     "ingredient": "Hardee's Beef Burger (USA)",
+     "status": "haram",
+     "reference": "Beef is not zabiha halal certified",
+     "explanation": "USA versions typically use non-zabiha beef which is impermissible in Islam (Surah Al-Ma’idah 5:3).",
+     "category": "Fast Food"
+  },
+  {
+     "ingredient": "Junaid Jamshed Biryani",
+     "status": "halal",
+     "reference": "Certified halal Pakistani restaurant chain",
+     "explanation": "Served by a religious brand known for using zabiha halal chicken and certified spices.",
+     "category": "Restaurant Food"
+  },
+  {
+     "ingredient": "Pizza Max Chicken Supreme",
+     "status": "halal",
+     "reference": "Uses halal chicken in certified branches",
+     "explanation": "Follows local halal standards. Chicken is sourced from certified slaughterhouses.",
+     "category": "Fast Food"
+  },
+  {
+     "ingredient": "Subway Turkey Sandwich (USA)",
+     "status": "doubtful",
+     "reference": "Not halal certified in most locations",
+     "explanation": "Meat used may not be zabiha halal unless explicitly certified. Surah Al-Baqarah 2:173 advises against doubtful meats.",
+     "category": "Fast Food"
+  },
+  {
+     "ingredient": "Shan Masala (Biryani Mix)",
+     "status": "halal",
+     "reference": "Certified halal by manufacturer",
+     "explanation": "Free of animal-derived flavoring and additives. Certified halal globally.",
+     "category": "Spices & Mixes"
+  },
+  {
+     "ingredient": "National Ketchup",
+     "status": "halal",
+     "reference": "Vegetarian product; no haram ingredients",
+     "explanation": "Contains only plant-based ingredients and preservatives suitable for halal consumers.",
+     "category": "Condiments"
+  },
+  {
+     "ingredient": "Shezan Mango Juice",
+     "status": "halal",
+     "reference": "Fruit-based, no animal derivatives",
+     "explanation": "Composed purely of fruit juice and sugar, Shezan complies with halal standards.",
+     "category": "Beverages"
+  },
+  {
+     "ingredient": "Hostess Twinkies (USA)",
+     "status": "haram",
+     "reference": "Contains beef/pork gelatin in some regions",
+     "explanation": "The creamy filling often contains gelatin derived from non-halal sources, which renders it impermissible.",
+     "category": "Desserts"
+  },
+  {
+     "ingredient": "Foster Clark’s Custard",
+     "status": "halal",
+     "reference": "Vegetarian thickener used",
+     "explanation": "Uses corn starch or similar vegetarian agents instead of gelatin.",
+     "category": "Desserts"
+  },
+  {
+     "ingredient": "Ben & Jerry's Chocolate Fudge Brownie (USA)",
+     "status": "doubtful",
+     "reference": "May contain alcohol-based flavoring and non-halal emulsifiers",
+     "explanation": "Some Ben & Jerry’s flavors use alcohol in vanilla/chocolate extracts and mono- & diglycerides from unknown sources.",
+     "category": "Ice Cream"
+  },
+  {
+     "ingredient": "Cinnabon Classic Roll (USA)",
+     "status": "doubtful",
+     "reference": "May include alcohol-based vanilla extract or pork-based enzymes",
+     "explanation": "The frosting and dough contain ingredients like vanilla extract (often alcohol-based) and emulsifiers that are not always halal-certified.",
+     "category": "Bakery"
+  },
+  {
+     "ingredient": "Reese’s Peanut Butter Cups (USA)",
+     "status": "haram",
+     "reference": "Contains non-zabiha whey and emulsifiers",
+     "explanation": "Uses whey from non-halal slaughter and emulsifiers like lecithin from questionable sources, which many scholars deem haram.",
+     "category": "Chocolates"
+  },
+  {
+     "ingredient": "M&M's Peanut (USA)",
+     "status": "doubtful",
+     "reference": "Some batches contain shellac and alcohol-based flavoring",
+     "explanation": "Shellac is insect-derived and questionable; also, some variants use alcohol-extracted flavoring.",
+     "category": "Candies"
+  },
+  {
+     "ingredient": "Cheddar Cheese Pringles (USA)",
+     "status": "haram",
+     "reference": "Contains enzymes from animal rennet",
+     "explanation": "The cheese powder contains rennet which is not sourced from halal-slaughtered animals.",
+     "category": "Chips"
+  },
+  {
+     "ingredient": "Cheddar Cheese Pringles (UK Halal Variant)",
+     "status": "halal",
+     "reference": "Halal-certified in UK in certain packaging",
+     "explanation": "The UK version is produced using microbial rennet and certified halal in some regions.",
+     "category": "Chips"
+  },
+  {
+     "ingredient": "Lucky Charms Cereal (USA)",
+     "status": "haram",
+     "reference": "Contains pork-derived gelatin in marshmallows",
+     "explanation": "The colorful marshmallows contain gelatin from pork, which is clearly haram.",
+     "category": "Cereals"
+  },
+  {
+     "ingredient": "Froot Loops (USA)",
+     "status": "doubtful",
+     "reference": "Coloring agents and vitamin D may be animal-derived",
+     "explanation": "Uses Vitamin D3 derived from lanolin (sheep wool) and artificial colors with unclear halal status.",
+     "category": "Cereals"
+  },
+  {
+     "ingredient": "Maggi Chicken Noodles (India)",
+     "status": "halal",
+     "reference": "Halal certified in India",
+     "explanation": "Nestlé India has released halal-certified chicken-flavored Maggi noodles with no haram ingredients.",
+     "category": "Instant Foods"
+  },
+  {
+     "ingredient": "Maggi Chicken Noodles (USA)",
+     "status": "doubtful",
+     "reference": "Flavor powder may contain animal fat or meat extracts",
+     "explanation": "The chicken flavor powder may use meat extracts or fats not from halal-slaughtered animals.",
+     "category": "Instant Foods"
+  },
+  {
+     "ingredient": "Skittles (USA)",
+     "status": "halal",
+     "reference": "Gelatin-free and alcohol-free in most regions",
+     "explanation": "Skittles removed gelatin from their recipe and now use halal-suitable flavoring agents.",
+     "category": "Candies"
+ },
+ {
+       "ingredient": "Skittles (UK)",
+       "status": "halal",
+       "reference": "Certified halal in UK and Europe",
+       "explanation": "The European version of Skittles is often halal-certified, free from animal derivatives.",
+       "category": "Candies"
+  },
+  {
+       "ingredient": "Trident Gum (USA)",
+       "status": "doubtful",
+       "reference": "Flavorings may be alcohol-based",
+       "explanation": "Though gelatin-free, some flavors use alcohol in their aroma compounds, causing doubt.",
+       "category": "Gum"
+ },
+ {
+       "ingredient": "Orbit Chewing Gum (Global)",
+       "status": "halal",
+       "reference": "Halal certified in many regions",
+       "explanation": "Made with synthetic flavoring and no gelatin, Orbit is widely accepted as halal.",
+       "category": "Gum"
+ },
+ {
+       "ingredient": "Gelato Italiano (Italy)",
+       "status": "doubtful",
+       "reference": "Alcohol-based flavors commonly used",
+       "explanation": "Many Italian gelatos use alcohol-based extracts for taste and preservation.",
+       "category": "Ice Cream"
+ },
+ {
+       "ingredient": "Toffifee (Europe)",
+       "status": "doubtful",
+       "reference": "May contain alcohol-based flavoring",
+       "explanation": "Hazelnut caramel chocolate that sometimes uses alcohol in its aroma profile.",
+       "category": "Chocolates"
+ },
+ {
+       "ingredient": "Heinz BBQ Sauce (USA)",
+       "status": "doubtful",
+       "reference": "Flavoring may include wine or spirit vinegar",
+       "explanation": "Some Heinz sauces use vinegar derived from wine or contain traces of alcohol-based flavorings.",
+       "category": "Condiments"
+  },
+  {
+       "ingredient": "French’s Classic Yellow Mustard",
+       "status": "halal",
+       "reference": "No animal or alcohol ingredients",
+       "explanation": "A simple blend of mustard seeds, vinegar, and turmeric — all halal-friendly.",
+       "category": "Condiments"
+  },
+  {
+       "ingredient": "Nutri-Grain Bars (USA)",
+       "status": "doubtful",
+       "reference": "May contain gelatin or alcohol-based flavoring",
+       "explanation": "Fruit filling may contain gelatin or preservatives with doubtful origins.",
+       "category": "Snacks"
+ },
+ { 
+       "ingredient": "Ritz Crackers (USA)",
+       "status": "doubtful",
+       "reference": "May contain animal-derived enzymes",
+       "explanation": "Although vegetarian in appearance, enzymes in some variants are not confirmed halal.",
+       "category": "Snacks"
+ }
+]
+    
+  
+
+    
+
+  
+
+    
