@@ -30,8 +30,7 @@ st.markdown(f"""
 <div class="hero" id="intro">
     <h1>HalalGPT</h1>
     <blockquote>
-        “Verily, Allah has permitted the pure and prohibited the impure.”<br>
-        <span>— Qur’an 7:157</span>
+        “Verily, Allah has permitted the pure and prohibited the impure.”<br><span>— Qur’an 7:157</span>
     </blockquote>
     <p class="intro">HalalGPT is your AI-powered assistant to instantly verify ingredients and products using verified Islamic sources.</p>
     <div class="fatwa-box">
@@ -40,19 +39,25 @@ st.markdown(f"""
     </div>
     <a href="#app" class="scroll-button">🔽 Enter HalalGPT</a>
 </div>
-""", unsafe_allow_html=True)
+""",
+            unsafe_allow_html=True)
 
-# Scroll anchor
 st.markdown("<div id='app'></div>", unsafe_allow_html=True)
 
 # SECTION TITLE
-st.markdown("<h2 class='section-title'>Ingredient Checker</h2>", unsafe_allow_html=True)
+st.markdown("<h2 class='section-title'>Ingredient Checker</h2>",
+            unsafe_allow_html=True)
+
 
 # CATEGORY DROPDOWN
 def get_categories():
-    cats = sorted(set(item.get("category", "Uncategorized") for item in ingredients_data))
+    cats = sorted(
+        set(
+            item.get("category", "Uncategorized")
+            for item in ingredients_data))
     cats.insert(0, "All Categories")
     return cats
+
 
 col1, col2 = st.columns([3, 2])
 
@@ -62,15 +67,19 @@ with col1:
 with col2:
     selected_category = st.selectbox("📂 Category Filter", get_categories())
 
+
 # FILTER RESULTS
 def filter_results(query, category):
     results = []
     for item in ingredients_data:
-        name_match = query.lower() in item["ingredient"].lower() if query else False
-        category_match = category == "All Categories" or item["category"] == category
+        name_match = query.lower() in item["ingredient"].lower(
+        ) if query else False
+        category_match = category == "All Categories" or item[
+            "category"] == category
         if name_match and category_match:
             results.append(item)
     return results
+
 
 results = filter_results(user_input, selected_category)
 
@@ -99,7 +108,8 @@ if user_input:
                     </div>
                 </div>
             </div>
-            """, unsafe_allow_html=True)
+            """,
+                        unsafe_allow_html=True)
     else:
         st.warning("No matching results found.")
 else:
@@ -108,12 +118,13 @@ else:
         <p>🕋 Start by searching for an ingredient above.</p>
         <p style='color:gold'>“Eat of what is lawful and pure.” — Qur’an 2:168</p>
     </div>
-    """, unsafe_allow_html=True)
+    """,
+                unsafe_allow_html=True)
 
 # FOOTER
 st.markdown("""
 <footer>
     <p>Part of the <strong>ZAYNOVA</strong> mission — merging modern AI with timeless Islamic ethics.</p>
-    <p class="author-credit">Built by <strong>ZAYAN ALI ADIL</strong> 💫</p>
 </footer>
-""", unsafe_allow_html=True)
+""",
+            unsafe_allow_html=True)
