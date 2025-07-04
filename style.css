@@ -1,0 +1,177 @@
+body {
+    background-color: #0d0d0d;
+    color: #ffffff;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    color: gold;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: gold;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 100px 30px;
+    background: linear-gradient(to bottom, #0d0d0d, #1a1a1a);
+    animation: fadeIn 2s ease-in-out;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    color: gold;
+    margin-bottom: 10px;
+}
+
+.hero blockquote {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #ccc;
+    margin-top: 20px;
+}
+
+.hero .intro {
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 20px auto;
+    color: #dddddd;
+}
+
+.scroll-button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 24px;
+    background-color: gold;
+    color: black;
+    border-radius: 25px;
+    font-weight: bold;
+    box-shadow: 0 0 15px gold;
+    transition: background 0.3s ease;
+}
+
+.scroll-button:hover {
+    background-color: #ffcc00;
+}
+
+.fatwa-box {
+    margin: 30px auto;
+    background-color: #1e1e1e;
+    border-left: 4px solid gold;
+    padding: 15px;
+    max-width: 600px;
+    color: #ffdd99;
+}
+
+/* SECTION */
+.section-title {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    text-align: center;
+    color: #ffd700;
+}
+
+.no-result-msg {
+    text-align: center;
+    margin-top: 40px;
+    color: #aaa;
+    font-size: 1.1rem;
+}
+
+/* RESULTS */
+.result-page {
+    background-color: #121212;
+    border: 2px solid gold;
+    border-radius: 20px;
+    padding: 25px;
+    margin: 30px 0;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
+    animation: fadeIn 1s ease;
+}
+
+.result-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.result-header h2 {
+    font-size: 2rem;
+    color: gold;
+}
+
+.result-body {
+    margin-top: 15px;
+    color: #eee;
+    font-size: 1rem;
+}
+
+.result-body hr {
+    border: none;
+    border-top: 1px solid #444;
+    margin: 15px 0;
+}
+
+/* STATUS BADGES */
+.status-halal {
+    background-color: green;
+    color: white;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.status-haram {
+    background-color: red;
+    color: white;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.status-doubtful {
+    background-color: orange;
+    color: black;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+/* FEEDBACK */
+.feedback-box {
+    margin-top: 20px;
+    color: #bbb;
+}
+
+.feedback {
+    display: inline-block;
+    margin: 5px 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.feedback:hover {
+    transform: scale(1.3);
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 30px;
+    color: #888;
+    border-top: 1px solid #333;
+    margin-top: 60px;
+    font-size: 0.95rem;
+}
+
+/* ANIMATION */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(40px); }
+    to { opacity: 1; transform: translateY(0); }
+}
