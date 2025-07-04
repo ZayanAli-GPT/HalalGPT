@@ -1,66 +1,55 @@
 import streamlit as st
 import json
-import random
-
-st.set_page_config(page_title="HalalGPT", layout="wide")
 
 # Load data
-with open("islamic_data.json", "r", encoding="utf-8") as f:
-    data = json.load(f)
+with open("islamic_data.json", "r", encoding="utf-8") as file:
+    data = json.load(file)
 
-# Split screen layout
-col1, col2 = st.columns([1, 2])
+# Custom styling
+st.set_page_config(page_title="HalalGPT", layout="wide")
 
-with col1:
-    st.markdown("<h1 class='glow'>HalalGPT</h1>", unsafe_allow_html=True)
-    st.markdown(
-        "<p class='tagline'>“O mankind, eat from whatever is on earth [that is] lawful and pure.” — Quran 2:168</p>",
-        unsafe_allow_html=True)
-    st.markdown(
-        "<p class='slogan'>Your AI Guide to Halal & Haram Ingredients</p>",
-        unsafe_allow_html=True)
+with open("style.css") as f:
+    st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-    if st.button("🔍 Enter HalalGPT"):
-        st.session_state.entered = True
+# Fatwa of the day
+fatwa_of_day = {
+    "question": "Is it permissible to consume food with doubtful ingredients?",
+    "answer": "Avoiding doubtful (shubuhat) matters is better for one’s faith. The Prophet ﷺ said: 'Leave that which makes you doubt for that which does not make you doubt.' (Tirmidhi)"
+}
 
+# Sidebar
+with st.sidebar:
+    st.image("https://i.imgur.com/N7oN6fG.png", width=180)  # Replace with your logo
+    st.markdown("## HalalGPT 🍃")
+    st.markdown("**Search any ingredient or product to know if it's Halal or Haram.**")
     st.markdown("---")
-    st.markdown(
-        "<p class='credit'>Made with 💚 by <strong>ZAYAN ALI ADIL</strong></p>",
-        unsafe_allow_html=True)
-
-with col2:
-    st.image("https://i.imgur.com/EVQfhVi.png", use_column_width=True)
-
-# Show search page if button clicked
-if st.session_state.get("entered"):
-    st.markdown("## 🧪 Ingredient Check")
-    user_input = st.text_input(
-        "Enter an ingredient, brand, or product name (e.g. Gelatin, Pepsi, etc.)"
-    )
-
-    if user_input:
-        result = next((item for item in data
-                       if item["ingredient"].lower() == user_input.lower()),
-                      None)
-        if result:
-            st.success(f"**Status:** {result['status']}")
-            st.markdown(f"**Explanation:** {result['explanation']}")
-            st.markdown(f"**Category:** {result['category']}")
-            st.markdown(f"**Reference:** {result['reference']}")
-        else:
-            st.error("Ingredient not found in the database.")
-
+    st.markdown("### Fatwa of the Day 📜")
+    st.write(f"**Q:** {fatwa_of_day['question']}")
+    st.write(f"**A:** {fatwa_of_day['answer']}")
     st.markdown("---")
-    st.markdown("### 📩 Submit a New Ingredient")
-    new_ingredient = st.text_input("Suggest a new ingredient we should add:")
-    if st.button("Submit"):
-        st.success("JazakAllah! We'll review and add it soon, In Sha Allah.")
+    st.markdown("Made with ❤️ for the Ummah")
 
-    st.markdown("---")
-    st.markdown(f"### 🕋 Fatwa of the Day")
-    random_fatwa = random.choice([
-        "Consuming gelatin derived from non-Zabiha animals is considered haram. — Darul Ifta",
-        "Alcohol-based flavorings in small amounts are not permissible in food. — Dr. Zakir Naik",
-        "Always verify the source of enzymes and emulsifiers in processed foods. — Mufti Menk"
-    ])
-    st.info(random_fatwa)
+# Main
+st.markdown("<h1 class='glow-text'>🔎 HalalGPT</h1>", unsafe_allow_html=True)
+st.markdown("<h3 class='tagline'>“Eat of what is lawful and pure on the earth...” — [Qur'an 2:168]</h3>", unsafe_allow_html=True)
+
+query = st.text_input("Type any ingredient, food item, or product name:")
+
+if query:
+    result = next((item for item in data if query.lower() in item["ingredient"].lower()), None)
+    if result:
+        st.markdown(f"""
+            <div class='result-box'>
+                <h2>{result['ingredient']}</h2>
+                <p><strong>Status:</strong> <span class='status-{result['status'].lower()}'>{result['status']}</span></p>
+                <p><strong>Explanation:</strong> {result['explanation']}</p>
+                <p><strong>Reference:</strong> {result['reference']}</p>
+                <p><strong>Category:</strong> {result['category']}</p>
+            </div>
+        """, unsafe_allow_html=True)
+    else:
+        st.warning("❌ No matching ingredient found. Try another search.")
+
+# Footer
+st.markdown("<hr><center><span class='footer-text'>© 2025 HalalGPT | Built by <strong>ZAYAN ALI ADIL</strong></span></center>", unsafe_allow_html=True)
+    
